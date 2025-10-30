@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #0e0e0e;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #202020, #1a1a1a);
+    border-bottom: 3px solid #3b82f6;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3b82f6;
+    margin-bottom: 1rem;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .header-text p {
+    color: #9ca3af;
+  }
+  
+  /* Navigasi */
+  .navbar {
+    margin-top: 1rem;
+  }
+  
+  .navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+  
+  /* Section umum */
+  section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+  }
+  
+  h2 {
+    color: #3b82f6;
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
+  }
+  
+  /* Skills */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill-box {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  
+  /* Kontak */
+  .contact-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #3b82f6;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #60a5fa;
+  }
+  
+  /* Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  
+  .contact-form label {
+    margin: 5px 0;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #111;
+    border: 1px solid #3b82f6;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background-color: #111;
+    color: #9ca3af;
+    font-size: 0.9rem;
+  }
+  
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
